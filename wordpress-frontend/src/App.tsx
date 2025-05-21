@@ -12,7 +12,7 @@ function Home() {
 
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
-  const a = 4;\
+  const a = 4;
   
   return (
     <Container maxWidth="xl" sx={{ py: 8 }}>

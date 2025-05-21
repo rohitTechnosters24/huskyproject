@@ -22,9 +22,9 @@ export const PostCard = ({ post }: PostCardProps) => {
           <Typography gutterBottom variant="h5" component="h2">
             {post.title.rendered}
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <h1 variant="body2" color="text.secondary">
             {post.excerpt.rendered.replace(/<[^>]*>/g, '')}
-          </Typography>
+          </h1>
           <Typography variant="caption" color="text.secondary" sx={{ mt: 2, display: 'block' }}>
             {new Date(post.date).toLocaleDateString()}
           </Typography>
